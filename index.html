@@ -1,16 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>FE-GQE</title>
     <link rel="shortcut icon" href="images/bitbug_favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     hellow world!
-    <a href="lib/jquery.js">阅读jQuery源码</a>
-    <a href="pages/resume_gqe.html">个人简历</a>
-    <a href="pages/flowLayout.html">瀑布流布局</a>
-    <a href="#"></a>
+    <header></header>
+    <container>
+        <div class="leftwrap">
+            <ul>
+                <li>
+                    <a href="pages/resume_gqe.html">个人简历</a>
+                </li>
+                <li>
+                    <a href="#">框架源码</a>
+                    <ul>
+                        <li><a href="lib/jquery.js">jquery.1.4.1源码</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">布局</a>
+                    <ul>
+                        <li><a href="pages/flowLayout.html">瀑布流布局</a></li>
+                        <li><a href="pages/flowLayout.html">双飞翼布局</a></li>
+                        <li><a href="pages/flowLayout.html">flex布局</a></li>
+                        <li></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">预处理语言</a>
+                    <ul>
+                        <li><a href="pages/flowLayout.html">sass</a></li>
+                        <li><a href="pages/flowLayout.html">less</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">todolist</a>
+                    <ul>
+                        <li><a href="#">Angularjs</a></li>
+                        <li><a href="#">vuejs</a></li>
+                        <li><a href="#">backbonejs</a></li>
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="rightwrap">
+            less和sass同时作为预处理语言，
+                sass用户多，有团队维护
+                sass基于ruby，所以需先安装ruby
+                sass省略大括号---简洁
+                sass大牛用的多一点
+
+                安装完成ruby，用ruby命令进入到scss文件所在文件夹，执行命令
+                F:\github\abc\css>sass --watch style.scss:style.css
+
+        </div>
+    </container>
+    <footer></footer>
 </body>
 <script src="lib/jquery-1.9.1.min.js"></script>
 <script src="js/myplugin.js"></script>
@@ -19,4 +74,5 @@
         color:"#666"
     })
 </script>
+
 </html>
