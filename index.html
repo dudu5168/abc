@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <title>FE-GQE</title>
     <link rel="shortcut icon" href="images/bitbug_favicon.ico" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    hellow world!
-    <header></header>
-    <container>
+    <header>hellow world!</header>
+    <div class="container">
         <div class="leftwrap">
             <ul>
                 <li>
@@ -63,16 +62,19 @@
                 安装完成ruby，用ruby命令进入到scss文件所在文件夹，执行命令
                 F:\github\abc\css>sass --watch style.scss:style.css
 
+                F:\github\abc\css>sass --watch style.scss:style.min.css --style compressed
+                .scss 带大括号、分号
+                .sass 不带大括号、分号
         </div>
-    </container>
+    </div>
     <footer></footer>
 </body>
 <script src="lib/jquery-1.9.1.min.js"></script>
 <script src="js/myplugin.js"></script>
 <script>
-    $("a").myPlugin({
-        color:"#666"
-    })
+    // $("a").myPlugin({
+    //     color:"#666"
+    // })
 </script>
 
 </html>
