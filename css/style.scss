@@ -1,4 +1,14 @@
+@charset "UTF-8";
+
+//helps
+@import "../sass/helps/_variables";
+@import "../sass/helps/_functions";
+@import "../sass/helps/_mixins";
+@import "../sass/helps/_helpers";
+
+//base
 @import "../sass/base/_normalize";
+
 html,
 body {
     height: 100%;
@@ -51,4 +61,5 @@ header {
 
 .rightwrap {
     padding-left: 210px;
+    padding-right: 10px;
 }
