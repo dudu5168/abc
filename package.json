@@ -4,8 +4,9 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-sass":"*", 
-    "grunt-contrib-jshint":"*", 
-    "grunt-contrib-uglify":"*", 
-    "grunt-contrib-watch":"*"
+    "grunt-contrib-jshint":"*",  
+    "grunt-contrib-uglify":"*",  
+    "grunt-contrib-concat":"*",  
+    "grunt-contrib-watch":"*"    
   }
 }
