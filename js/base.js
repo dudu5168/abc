@@ -9,6 +9,6 @@ $.fn.myPlugin = function (options) {
   var settings = $.extend(defaults, options);
   return this.css({
     'color': settings.color,
-    'fontSize': settings.fontSize
+    'fontSize': settings.fontSize,
   });
 };
