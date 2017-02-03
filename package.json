@@ -3,11 +3,11 @@
   "version": "1.2.0",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-sass":"*", 
-    "grunt-contrib-cssmin":"*",
-    "grunt-contrib-jshint":"*",  
-    "grunt-contrib-uglify":"*",  
-    "grunt-contrib-concat":"*",  
-    "grunt-contrib-watch":"*"    
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*"
   }
 }
