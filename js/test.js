@@ -36,3 +36,22 @@ solution([1,2,4,7,10,15],15);
 /**
  * jquery插件
  */
+
+/**
+ * 点击checkbox选中整行bug
+ */
+$('#Charge-list tr td').on('click', ':checkbox', function (e) {
+    e.stopPropagation();
+    alert(this);
+    var parent = $(this).parents('tr');
+    $(this).is(':checked') ? parent.addClass('active') : parent.removeClass('active');
+});
+$('#Charge-list').on('click','tr', function () {
+    $(this).find(':checkbox').click();
+    console.log(this);
+    if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+    } else {
+        $(this).addClass('active');
+    }
+});
